@@ -16,7 +16,7 @@ export class HomePage {
   login(){
 
    
-    this.navCtrl.push('CategoriasPage');
+    this.navCtrl.setRoot('CategoriasPage');
  
   }
 }
